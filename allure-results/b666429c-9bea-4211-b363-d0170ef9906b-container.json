@@ -1,0 +1,1 @@
+{"uuid":"b666429c-9bea-4211-b363-d0170ef9906b","name":"Suite","children":["85a73df6-db49-4936-9e6f-96e88ad513d6"],"befores":[{"name":"setUpLogger","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710023178665,"stop":1710023178786}],"afters":[],"start":1710023178613,"stop":1710023181082}

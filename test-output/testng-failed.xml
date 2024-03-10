@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.naveenAutomation.listeners.AllureReportListener"/>
+    <listener class-name="com.naveenAutomation.listeners.CustomListener"/>
+    <listener class-name="com.naveenAutomation.listeners.ExtentReportListener"/>
+    <listener class-name="com.naveenAutomation.listeners.TransformerForRetry"/>
+  </listeners>
+  <test thread-count="5" name="NaveenAutomationUITesting(failed)">
+    <classes>
+      <class name="com.naveenAutomation.tests.MyAccountPageTest">
+        <methods>
+          <include name="validateLogin" invocation-numbers="0 0"/>
+          <include name="setUpLogger"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.naveenAutomation.tests.MyAccountPageTest -->
+    </classes>
+  </test> <!-- NaveenAutomationUITesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

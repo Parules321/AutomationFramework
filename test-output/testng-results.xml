@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="2" total="9" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T18:43:19 EST" name="Suite" finished-at="2024-03-09T18:44:06 EST" duration-ms="47461">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T18:43:19 EST" name="NaveenAutomationUITesting" finished-at="2024-03-09T18:44:06 EST" duration-ms="47461">
+      <class name="com.naveenAutomation.tests.AddressBookPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.AddressBookPageTest@37af1f93]" started-at="2024-03-09T18:43:59 EST" name="launchBrowser" finished-at="2024-03-09T18:44:02 EST" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateSubmitAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.AddressBookPageTest@37af1f93]" started-at="2024-03-09T18:44:02 EST" name="validateSubmitAddress" data-provider="validAddressData" finished-at="2024-03-09T18:44:06 EST" duration-ms="4172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123 Road]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[M9W3M3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[610]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubmitAddress -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.AddressBookPageTest@37af1f93]" started-at="2024-03-09T18:44:06 EST" name="closeBrowser" finished-at="2024-03-09T18:44:06 EST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenAutomation.tests.AddressBookPageTest -->
+      <class name="com.naveenAutomation.tests.ReturnPageTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:19 EST" name="setUpLogger" finished-at="2024-03-09T18:43:19 EST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:21 EST" name="launchBrowser" finished-at="2024-03-09T18:43:25 EST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateReturnRequestWithInvalidEmail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:25 EST" name="validateReturnRequestWithInvalidEmail" data-provider="returnRequestDataWithInvalidEmail" finished-at="2024-03-09T18:43:30 EST" duration-ms="5193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ps]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[PO123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[January 2024]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[LP12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReturnRequestWithInvalidEmail -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:30 EST" name="closeBrowser" finished-at="2024-03-09T18:43:31 EST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:31 EST" name="launchBrowser" finished-at="2024-03-09T18:43:34 EST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateReturnRequestWithMissingOrderId(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:34 EST" name="validateReturnRequestWithMissingOrderId" data-provider="returnRequestDataWithoutOrderId" finished-at="2024-03-09T18:43:38 EST" duration-ms="3708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paula]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ps@ps.co]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[January 2024]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[LP12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReturnRequestWithMissingOrderId -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.ReturnPageTest@35cd68d4]" started-at="2024-03-09T18:43:38 EST" name="closeBrowser" finished-at="2024-03-09T18:43:38 EST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenAutomation.tests.ReturnPageTest -->
+      <class name="com.naveenAutomation.tests.MyAccountPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:38 EST" name="launchBrowser" finished-at="2024-03-09T18:43:41 EST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateEditAccountInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:41 EST" name="validateEditAccountInfo" data-provider="editAccountInfoData" finished-at="2024-03-09T18:43:44 EST" duration-ms="2912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charlie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Charles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Thomson]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditAccountInfo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:44 EST" name="closeBrowser" finished-at="2024-03-09T18:43:44 EST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:44 EST" name="launchBrowser" finished-at="2024-03-09T18:43:48 EST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:48 EST" name="validateLogin" data-provider="validLoginData" finished-at="2024-03-09T18:43:49 EST" duration-ms="1116" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [My Account1] but found [My Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [My Account1] but found [My Account]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.naveenAutomation.tests.MyAccountPageTest.validateLogin(MyAccountPageTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:49 EST" name="closeBrowser" finished-at="2024-03-09T18:43:49 EST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:49 EST" name="launchBrowser" finished-at="2024-03-09T18:43:52 EST" duration-ms="2986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:52 EST" name="validateLogin" data-provider="validLoginData" finished-at="2024-03-09T18:43:53 EST" duration-ms="1085" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [My Account1] but found [My Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [My Account1] but found [My Account]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.naveenAutomation.tests.MyAccountPageTest.validateLogin(MyAccountPageTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:53 EST" name="closeBrowser" finished-at="2024-03-09T18:43:53 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:53 EST" name="launchBrowser" finished-at="2024-03-09T18:43:56 EST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validateUpdatePassword(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:56 EST" name="validateUpdatePassword" data-provider="validPasswordUpdateData" finished-at="2024-03-09T18:43:59 EST" duration-ms="2396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdatePassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.naveenAutomation.tests.MyAccountPageTest@61af1510]" started-at="2024-03-09T18:43:59 EST" name="closeBrowser" finished-at="2024-03-09T18:43:59 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.naveenAutomation.tests.MyAccountPageTest -->
+    </test> <!-- NaveenAutomationUITesting -->
+  </suite> <!-- Suite -->
+</testng-results>
