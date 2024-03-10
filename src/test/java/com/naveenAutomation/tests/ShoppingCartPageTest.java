@@ -36,7 +36,7 @@ public class ShoppingCartPageTest extends TestBase {
 	@Severity(SeverityLevel.CRITICAL)
 	@Epic("Product Management")
 	@Feature("Add to Cart")
-	@Test(dataProvider = "validLoginData", dataProviderClass = DataProviderUtils.class)
+	@Test(dataProvider = "validLoginDataToAddToCart", dataProviderClass = DataProviderUtils.class)
 	public void validateAddToCart(String username, String password) {
 		accountPage = loginPage.submitCorrectLoginInfo(username, password);
 		desktopsPage = accountPage.showAllDesktops();
@@ -50,7 +50,7 @@ public class ShoppingCartPageTest extends TestBase {
 	@Severity(SeverityLevel.CRITICAL)
 	@Epic("Product Management")
 	@Feature("Add to Cart")
-	@Test(dataProvider = "validLoginData", dataProviderClass = DataProviderUtils.class)
+	@Test(dataProvider = "validLoginDataToAddToCart", dataProviderClass = DataProviderUtils.class)
 	public void validateAddToCartForMultipleItems(String username, String password) {
 		accountPage = loginPage.submitCorrectLoginInfo(username, password);
 		desktopsPage = accountPage.showAllDesktops();

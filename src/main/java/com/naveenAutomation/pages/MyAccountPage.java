@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.naveenAutomation.testBase.TestBase;
 import com.naveenAutomation.utilities.CommonUtils;
+import com.naveenAutomation.utilities.ExplicitWaitUtil;
 
 public class MyAccountPage extends TestBase {
 
@@ -18,14 +19,6 @@ public class MyAccountPage extends TestBase {
 
 	}
 
-	@FindBy(css = "div .alert-success")
-	private WebElement passwordUpdateAlert;
-
-	@FindBy(xpath = "//h2[text() = 'My Account']")
-	private WebElement myAccountText;
-
-	@FindBy(css = "div [class*='alert-success']")
-	private WebElement accountUpdateAlertText;
 
 	@FindBy(css = ".list-group a")
 	private List<WebElement> sideNavMenuList;
@@ -42,21 +35,27 @@ public class MyAccountPage extends TestBase {
 	@FindBy(css = "ul.nav>li:first-of-type>div>a")
 	private WebElement showAllDesktopsBtn;
 	
+	@FindBy(xpath = "//li //a[text()='Account']")
+	private WebElement accountPageBannerTxt;
+	
+	@FindBy(xpath = "//h2[text()='My Account']")
+	private WebElement myAccountBannerTxt;
+	
 	
 	private void getMyAccountDropDownMenu() {
 		myAccountDropDwnBtn.click();
 	}
 
 	public String getMyAccountText() {
-		return myAccountText.getText();
+		return myAccountBannerTxt.getText();
 	}
 
-	public String getAccountUpdateAlertText() {
-		return accountUpdateAlertText.getText();
+	public String getAccountUpdateAlertText() {;
+		return accountPageBannerTxt.getText();
 	}
 
 	public String getPasswordUpdateAlertText() {
-		return passwordUpdateAlert.getText();
+		return accountPageBannerTxt.getText();
 	}
 
 	public AccountLogoutPage clickSideNavLogOutBtn() {

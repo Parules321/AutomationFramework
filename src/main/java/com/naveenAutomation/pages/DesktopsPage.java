@@ -36,6 +36,11 @@ public class DesktopsPage extends TestBase {
 		return new MacBookAirPage();
 	}
 
+	public SonyVaioPage selectSonyVaio() {
+		CommonUtils.clickOnElementFromWebElementsList(productClickBtnsList, "Sony VAIO");
+		return new SonyVaioPage();
+	}
+
 	public IpodClassicPage selectIpodClassic() {
 		CommonUtils.clickOnElementFromWebElementsList(productClickBtnsList, "iPod Classic");
 		return new IpodClassicPage();
@@ -56,20 +61,19 @@ public class DesktopsPage extends TestBase {
 	private void clickContinueToWishListPageBtn() {
 		continueToWishListPageBtn.click();
 	}
-	
+
 	public MyWishListPage addSingleItemToWishList() {
 		clickAddIpodClassicToWishListBtn();
 		clickContinueToWishListPageBtn();
 		return new MyWishListPage();
 	}
-	
-	
+
 	public MyWishListPage addMultipleItemsToWishList() {
 		clickAddSonyVaioToWishListBtn();
 		clickAddMacBookAirToWishListBtn();
 		clickContinueToWishListPageBtn();
 		return new MyWishListPage();
-		
+
 	}
 
 }

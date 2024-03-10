@@ -17,6 +17,8 @@ import org.openqa.selenium.support.ui.Select;
 import com.naveenAutomation.dateFormats.DateFormat;
 import com.naveenAutomation.testBase.TestBase;
 
+import io.qameta.allure.Attachment;
+
 public class CommonUtils extends TestBase {
 
 	public static void selectElement(WebElement element, String text, String value) {
@@ -42,9 +44,8 @@ public class CommonUtils extends TestBase {
 		}
 	}
 
-	
-	public static void takeFailedTestScreenShot(String testCaseName) {
-	
+	public static File takeFailedTestScreenShot(String testCaseName) {
+
 		String timeStamp = new SimpleDateFormat(DateFormat.LONG_DATE.getFormat()).format(new Date());
 		File screenShotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
@@ -54,7 +55,7 @@ public class CommonUtils extends TestBase {
 			System.out.println("Unable to save or take screen shot of failed test " + testCaseName);
 
 		}
-
+		return screenShotFile;
 	}
 
 	public static void clickOnElementFromWebElementsList(List<WebElement> elements, String elementText) {
@@ -74,5 +75,5 @@ public class CommonUtils extends TestBase {
 		String quantity = String.valueOf(randomQuantity);
 		return quantity;
 	}
-	
+
 }

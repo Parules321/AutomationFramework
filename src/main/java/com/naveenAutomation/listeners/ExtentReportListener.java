@@ -47,7 +47,7 @@ public class ExtentReportListener extends TestListenerAdapter {
 
 		// extent report configurations
 		extent.setSystemInfo("Name of tester: ", "Parul");
-		extent.setSystemInfo("Env", "Production");
+		extent.setSystemInfo("Environment", "Testing");
 		extent.setSystemInfo("Website", "https://naveenautomationlabs.com");
 
 	}

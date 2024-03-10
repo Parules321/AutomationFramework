@@ -14,6 +14,7 @@ import com.naveenAutomation.pages.IpodClassicPage;
 import com.naveenAutomation.pages.MacBookAirPage;
 import com.naveenAutomation.pages.MyAccountPage;
 import com.naveenAutomation.pages.OrderConfirmationPage;
+import com.naveenAutomation.pages.SonyVaioPage;
 import com.naveenAutomation.testBase.TestBase;
 import com.naveenAutomation.utilities.DataProviderUtils;
 
@@ -30,6 +31,7 @@ public class OrderConfirmationPageTest extends TestBase {
 	AddAddressPage addAddressPage;
 	DesktopsPage desktopsPage;
 	MacBookAirPage macBookAirPage;
+	SonyVaioPage sonyVaioPage;
 	IpodClassicPage ipodClassicPage;
 	CheckoutPage checkoutPage;
 	OrderConfirmationPage orderConfimedPage;
@@ -66,8 +68,8 @@ public class OrderConfirmationPageTest extends TestBase {
 			String countryOptionValue, String zoneOptionText, String zoneOptionValue) {
 		accountPage = loginPage.submitCorrectLoginInfo(username, password);
 		desktopsPage = accountPage.showAllDesktops();
-		macBookAirPage = desktopsPage.selectMacBook();
-		desktopsPage = macBookAirPage.navigateBackToAllProductsWithItemAddedToCart();
+		sonyVaioPage = desktopsPage.selectSonyVaio();
+	    desktopsPage = sonyVaioPage.navigateBackToAllProductsWithItemAddedToCart();
 		ipodClassicPage = desktopsPage.selectIpodClassic();
 		checkoutPage = ipodClassicPage.completeCheckout();
 		orderConfimedPage = checkoutPage.placeOrder(firstName, lastName, address, city, postCode, countryOptionText,

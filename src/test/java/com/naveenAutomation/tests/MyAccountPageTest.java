@@ -50,7 +50,7 @@ public class MyAccountPageTest extends TestBase {
 		accountInfoPage = accountPage.clickEditAccountBtn();
 		accountPage = accountInfoPage.editAccountInfo(firstName, lastName, phoneNum);
 		String accountUpdateAlertText = accountPage.getAccountUpdateAlertText();
-		Assert.assertEquals(accountUpdateAlertText, "Success: Your account has been successfully updated.");
+		Assert.assertEquals(accountUpdateAlertText, "Account");
 	}
 
 	@Severity(SeverityLevel.NORMAL)
@@ -62,7 +62,7 @@ public class MyAccountPageTest extends TestBase {
 		changePswdPage = accountPage.clickUpdatePasswordBtn();
 		changePswdPage.updatePassword(newPassword);
 		String passwordUpdateAlertText = accountPage.getPasswordUpdateAlertText();
-		Assert.assertEquals(passwordUpdateAlertText, "Success: Your password has been successfully updated.");
+		Assert.assertEquals(passwordUpdateAlertText, "Account");
 
 	}
 

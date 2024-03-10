@@ -22,6 +22,21 @@ public class DataProviderUtils {
 			return loginData;
 		}
 		
+		@DataProvider(name = "validLoginDataToAddToCart")
+		private String[][] loginInfoForAddToCartProvider() throws IOException {
+			String filePath = "./LoginDetails.xlsx";
+			int rowCount = ExcelUtils.getRowCount(filePath, "validLogin-AddtoCart");
+			int colCount = ExcelUtils.getColumnCount(filePath, "validLogin-AddtoCart", rowCount);
+			String[][] loginData = new String[rowCount][colCount];
+			for (int i = 1; i <= rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					loginData[i - 1][j] = ExcelUtils.getCellValue(filePath, "validLogin-AddtoCart", i, j); 
+				}
+			}
+			return loginData;
+		}
+		
+			
 		
 		@DataProvider(name = "invalidUsernameData")
 		private String[][] invalidUsernameDetailsProvider() throws IOException {

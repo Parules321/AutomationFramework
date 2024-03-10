@@ -7,7 +7,7 @@ public class RetryAnalyzer extends TestBase implements IRetryAnalyzer {
 	int cnt = 0;
 
 	int maxCnt = 1;
-//Returns true if the test method has to be retried, false otherwise.
+
 	@Override
 	public boolean retry(ITestResult result) {
 

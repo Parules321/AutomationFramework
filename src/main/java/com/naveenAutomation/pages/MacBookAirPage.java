@@ -37,7 +37,6 @@ public class MacBookAirPage extends TestBase {
 
 	private void enterQuantityMoreThanOne(String multipleQuantity) {
 		quantityInputBox.clear();
-	//	multipleQuantity = CommonUtils.generateRandomNumberGreaterThanOne();
 		quantityInputBox.sendKeys(multipleQuantity);
 	}
 

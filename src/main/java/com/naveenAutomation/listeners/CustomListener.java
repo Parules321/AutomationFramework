@@ -11,6 +11,7 @@ public class CustomListener extends TestBase implements ITestListener {
 	public void onStart(ITestContext context) {
 		logger.info("Test suite started: " + context.getName() + "\nNumber of test methods in this suite: "
 				+ context.getAllTestMethods().length);
+		
 
 	}
 
